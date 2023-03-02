@@ -54,5 +54,43 @@ $t = date("F");
     echo 'Good Evening';
 } */
 
+$posts = ['First_post!'];
+
+/* if (!empty($posts)) {
+  echo $posts[0];
+} else {
+  echo 'No posts';
+} */
+
+//echo !empty($posts) ? $posts[0] : 'No Posts';
+
+//$first_post = !empty($posts) ? $posts[0] : 'No Posts';
+//$first_post = !empty($posts) ? $posts[0] : null;
+
+//$first_post = $posts[0] ?? null;
+
+//echo $first_post;
+
+$favcolor = 'grey';
+
+switch($favcolor) {
+  case 'red':
+    echo 'Red is my favorite color';
+    break;
+
+  case 'blue':
+    echo 'Blue is my favorite color';
+    break;
+
+  case 'green':
+    echo 'Green is my favorite color';
+    break;
+
+    default:
+    echo 'I am not a favorite color';
+}
+
+
+
 
 ?>
