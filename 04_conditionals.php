@@ -36,40 +36,40 @@ if (condition) {
 
 $age = 17;
 
-//if($age >= 18) {
-//   echo 'You are old enough to vote';
-//} else {
-//    echo 'Sorry, you are not old enough to vote';
-//}
+if($age >= 18) {
+   echo 'You are old enough to vote';
+} else {
+    echo 'Sorry, you are not old enough to vote';
+}
 
 date_default_timezone_set('America/Sao_Paulo');
 
 $t = date("F");
 
-/* if($t < 12) {
+ if($t < 12) {
     echo 'Goof Morning';
 } else if($t < 17) {
     echo 'Good Afternoon';
 } else {
     echo 'Good Evening';
-} */
+} 
 
 $posts = ['First_post!'];
 
-/* if (!empty($posts)) {
+ if (!empty($posts)) {
   echo $posts[0];
 } else {
   echo 'No posts';
-} */
+} 
 
-//echo !empty($posts) ? $posts[0] : 'No Posts';
+echo !empty($posts) ? $posts[0] : 'No Posts';
 
-//$first_post = !empty($posts) ? $posts[0] : 'No Posts';
-//$first_post = !empty($posts) ? $posts[0] : null;
+$first_post = !empty($posts) ? $posts[0] : 'No Posts';
+$first_post = !empty($posts) ? $posts[0] : null;
 
-//$first_post = $posts[0] ?? null;
+$first_post = $posts[0] ?? null;
 
-//echo $first_post;
+echo $first_post;
 
 $favcolor = 'grey';
 

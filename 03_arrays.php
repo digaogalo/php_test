@@ -3,8 +3,8 @@
 $numbers = [1,44,55,22];
 $fruits = array('pineaple', 'strawberry', 'pear');
 
-//var_dump($numbers);
-//echo $fruits[1];
+var_dump($numbers);
+echo $fruits[1];
 
 $colors = [
     1 => 'red',
@@ -17,10 +17,10 @@ $colors = [
 $hex = [
     'red' => '#f00',
     'blue' => '#00f',
-    'green' => '#0f0'
+    'green' => '#0f0',
 ];
 
-//echo $hex['blue'];
+echo $hex['blue'];
 
 $person = [
     'first_name' => 'Rodrigo',
@@ -28,7 +28,7 @@ $person = [
     'email' => 'digo@gmail.com'
 ];
 
-//echo $person['first_name'];
+echo $person['first_name'];
 
 $people = [
     [
@@ -48,7 +48,7 @@ $people = [
     ]
 ];
 
-//echo $people[0]['last_name'];
+echo $people[0]['last_name'];
 var_dump(json_encode($people))
 
 ?>
