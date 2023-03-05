@@ -6,4 +6,10 @@
 */
 ?>
 
-<a href="<?php echo $_SERVER['PHP_SELF']; ?>">click</a>
+<a href="   
+<?php echo $_SERVER['PHP_SELF'];    
+?>
+?name="
+>
+</a>
+   
