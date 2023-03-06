@@ -9,7 +9,7 @@
 <a href="   
 <?php echo $_SERVER['PHP_SELF'];    
 ?>
-?name="
+?name=""
 >
 </a>
    
