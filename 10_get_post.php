@@ -5,8 +5,8 @@
   We can pass data through urls and forms using the $_GET and $_POST superglobals.
 */
 
-echo $_GET['name'];
-echo $_GET['age'];
+echo $_POST['name'];
+echo $_POST['age'];
 ?>
 
 <a href="<?php $_SERVER['PHP_SELF']; ?>?
