@@ -11,6 +11,7 @@ if(isset($_POST['submit'])) {
 
 ?>
 
+<<<<<<< HEAD
 <a href="<?php $_SERVER['PHP_SELF']; ?>?
 name=John&age=30">Click</a>
 
@@ -28,3 +29,12 @@ method="POST">
 </form>
 
 
+=======
+<a href="   
+<?php echo $_SERVER['PHP_SELF'];    
+?>
+?name=""
+>
+</a>
+   
+>>>>>>> 0636a72e734002fc39b3fe22cb0c7534922c95a1
