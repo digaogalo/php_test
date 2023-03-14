@@ -58,7 +58,7 @@ class Employee extends User {
     }
 }
 
-$employee1 = new Employee('Margareth', 'mfuoyo@gmail.com', '1wer45', 'Product Owner');
+$employee1 = new Employee('Margareth', 'mfuoyo@gmail.com', '1wer45', 'Backtend Developer');
 
 echo $employee1->get_title();
 
