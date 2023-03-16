@@ -26,7 +26,7 @@
 </head>
 <body>
     <h1>
-        <?php echo 'Post One'; ?>
+        <?php echo 'Post One , Two , Three'; ?>
     </h1>
 </body>
 </html>
