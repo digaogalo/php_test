@@ -25,15 +25,7 @@ class User {
         $this->password = $password;
         $this->title = $title;
     }
-  
-  public function __construct($name, $email, $password, $title) {
-        $this->name = $name;
-        $this->email = $email;
-        $this->password = $password;
-        $this->title = $title;
-    }
    
-
     //method is a function that belongs to a class
     function set_name($name) {
         $this->name = $name;
