@@ -26,4 +26,14 @@ try {
     echo 'Second Finally';
 }
 
+
+try {
+    echo inverse(5);
+    echo inverse(0);
+} catch(Exception $e) {
+    echo 'Caught Exception', $e->getMessage(), ' ';
+} finally {
+    echo 'Second Finally';
+}
+
 echo 'Hello World';
